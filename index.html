@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mascoo.app</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous" />
+</head>
+
+<body class="bg-dark">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #edd2f8">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="./img/logo_MascoO.png" style="width: 50px"
+                        href="https://www.figma.com/proto/RtmsgzoRqdsKPQkjeR8I4v/MascoO.app?node-id=977%3A3685&scaling=scale-down&page-id=845%3A2952&starting-point-node-id=977%3A3685"
+                        target="_blank" alt="Mascoo.app" />
+
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+
+                        </li>
+                    </ul>
+                    <p>
+                        Made by
+                        <a href="https://www.behance.net/gallery/124040615/MascoOApp-Mascotas-felices-duenos-felices-UXUI?tracking_source=search_projects_recommended%7Cmascoo.app"
+                            target="_blank">MascoO.App</a> -
+                        Powered by
+                        <a href="https://www.figma.com/proto/RtmsgzoRqdsKPQkjeR8I4v/MascoO.app?node-id=977%3A3685&scaling=scale-down&page-id=845%3A2952&starting-point-node-id=977%3A3685" target="_blank">MascoO.app Prototype</a>
+                    </p>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="container mt-4">
+        <div class="shadow-sm p-3 mb-5 bg-dark rounded text-center">
+            <h2><img src="./img/logo_MascoO.png" alt="Mascoo.app" a href="https://thedogapi.com/" /></h2>
+            <p class="my-4 text-light">
+                Única Plataforma que conecta pet lovers entre sí y con proveedores de mascotas en Perú 🇵🇪.
+
+            </p>
+        </div>
+        <div class="shadow-sm p-3 mb-5 bg-dark rounded">
+            <form id="searchForm">
+                <div class="input-group mb-3">
+                    <input id="dogName" name="dogName" type="text" class="form-control"
+                        placeholder="Escribe la raza de tu engreído para saber más"
+                        aria-label="Escribe la raza de tu engreído..." aria-describedby="button-addon2" />
+                    <button class="btn btn-primary text-light btn-outline-secondary" type="submit">
+                        Buscar
+                    </button>
+                </div>
+            </form>
+        </div>
+        <div class="shadow-sm p-3 mb-5 bg-dark rounded">
+            <div class="container">
+                <div class="row" id="messages"></div>
+                <div class="row" id="pokemons-list"></div>
+            </div>
+        </div>
+    </main>
+
+    <div id="myModal" class="modal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content" id="modalContent"></div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ"
+        crossorigin="anonymous"></script>
+    <script src="./js/main.js" type="module"></script>
+</body>
+
+</html>

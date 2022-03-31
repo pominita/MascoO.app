@@ -1,0 +1,13 @@
+body {
+    background-color: #edd2f8;
+}
+    #search{
+        width: 100%;
+        height: 50px;
+        border-radius: 50px;
+        border: 1px solid black;
+        padding-left: 10px;
+        font-size: 18px;  
+        font-weight: bold;
+        margin-bottom: 40px;
+      }
